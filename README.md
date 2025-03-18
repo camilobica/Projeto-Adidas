@@ -59,4 +59,4 @@ Os dados foram obtidos no Kaggle e estão armazenados em um arquivo Excel, conte
 
 ## Um pouco mais sobre a base
 
-[Clique aqui](referencias/dicionario_de_dados.md) para ver o dicionário de dados da base utilizada.
+[Clique aqui](referenciais/dicionario_de_dados.md) para ver o dicionário de dados da base utilizada.
