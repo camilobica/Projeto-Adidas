@@ -27,7 +27,7 @@ Os dados foram obtidos no Kaggle e estão armazenados em um arquivo Excel, conte
 
 ```
 ├── .gitignore         <- Arquivos e diretórios a serem ignorados pelo Git
-├── ambiente.yml       <- O arquivo de requisitos para reproduzir o ambiente de análise
+├── ambiente_projeto_adidas.yml       <- O arquivo de requisitos para reproduzir o ambiente de análise
 ├── LICENSE            <- Licença de código aberto (MIT)
 ├── README.md          <- README principal para desenvolvedores que usam este projeto.
 |
@@ -37,7 +37,6 @@ Os dados foram obtidos no Kaggle e estão armazenados em um arquivo Excel, conte
 |
 |   └──src             <- Código-fonte para uso neste projeto.
 |      │
-|      ├── config.py    <- Configurações básicas do projeto.
 |      └── estatistica.py  <- Funções criadas especificamente para este projeto.
 |
 ├── referencias        <- Dicionários de dados.
@@ -56,7 +55,7 @@ Os dados foram obtidos no Kaggle e estão armazenados em um arquivo Excel, conte
 2. Crie um ambiente virtual para o seu projeto utilizando o `conda`.
 
     ```bash
-    conda env create -f ambiente.yml --name estatistica
+    conda env create -f ambiente_projeto_adidas.yml --name estatistica
     ```
 
 ## Um pouco mais sobre a base
@@ -65,3 +64,39 @@ Os dados foram obtidos no Kaggle e estão armazenados em um arquivo Excel, conte
 
 ## Resumo dos princiapis resultados
 
+### 1️⃣ Expansão do Mercado
+- O número de estados e cidades com vendas aumentou significativamente de **9 para 46 estados** e **9 para 45 cidades** entre 2020 e 2021.
+- Isso indica uma **expansão geográfica** e maior presença da Adidas no mercado.
+
+### 2️⃣ Mudança no Perfil dos Produtos Mais Vendidos
+- Em 2020, o produto mais vendido foi **Men's Street Footwear**.
+- Em 2021, o destaque foi **Men’s Athletic Footwear**, sugerindo um **aumento no interesse por produtos esportivos**, possivelmente relacionado à maior preocupação com a saúde e bem-estar.
+
+### 3️⃣ Alteração nos Canais de Venda
+- Em 2020, a maioria das vendas ocorreu via **Outlets (46.2%)**.
+- Em 2021, houve uma grande mudança, com **vendas online** superando os outros canais, representando **42.2% das transações**.
+- O crescimento do comércio eletrônico reflete **mudanças no comportamento do consumidor**, possivelmente impulsionadas pela pandemia.
+
+### 4️⃣ Análise de Faturamento e Volume de Vendas
+- O total de unidades vendidas aumentou **quase 5x** de 2020 para 2021.
+- O faturamento cresceu consideravelmente, com **valores mensais superando 70 milhões em dezembro de 2021**, em comparação com **máximos de 15 milhões em 2020**.
+- A média de preços caiu em 2021, indicando possíveis ajustes estratégicos para impulsionar as vendas.
+
+### 5️⃣ Correlação Entre Variáveis
+- Há uma **forte correlação positiva** entre **unidades vendidas, vendas totais e lucro operacional**, confirmando que o aumento do volume de vendas impacta diretamente o faturamento e o lucro.
+- A **margem operacional** apresenta uma **correlação negativa** com as unidades vendidas (-0.31), sugerindo que o aumento do volume pode reduzir a rentabilidade percentual.
+
+### 6️⃣ Testes Estatísticos
+- Os testes de **Qui-Quadrado** indicam que **há associação significativa** entre método de venda e varejistas, confirmando que diferentes varejistas utilizam estratégias distintas.
+- Entretanto, **não há relação estatística significativa entre produto e região**, sugerindo que os produtos são distribuídos de forma relativamente uniforme entre os mercados.
+
+---
+
+## Conclusão
+A análise revelou **mudanças estratégicas na operação da Adidas**, incluindo:
+✅ **Expansão geográfica** e maior diversificação de vendas.  
+✅ **Crescimento do e-commerce**, alterando o comportamento dos consumidores.  
+✅ **Mudança no perfil dos produtos vendidos**, indicando novas tendências de consumo.  
+✅ **Impacto do volume de vendas no faturamento**, mas com efeito sobre a margem operacional.  
+
+Esses insights podem **orientar estratégias futuras de precificação, distribuição e marketing**, garantindo um crescimento sustentável da marca.
