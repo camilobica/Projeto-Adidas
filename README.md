@@ -4,6 +4,8 @@ Este projeto analisa o desempenho de vendas da Adidas nos anos de 2020 e 2021, c
 
 A crise sanitária de 2020 afetou significativamente o comportamento dos consumidores e a operação das empresas. No primeiro semestre, restrições e fechamentos de lojas físicas reduziram as vendas presenciais, enquanto as compras online ganharam força. O objetivo deste estudo é compreender essas mudanças e avaliar como as vendas evoluíram ao longo do período.
 
+![imagem](imagens/tenis_adidas.jpg)
+
 ## Etapas do Projeto
 
 1. **Importação de Dados**: Carregamento e pré-processamento dos dados.
@@ -60,3 +62,6 @@ Os dados foram obtidos no Kaggle e estão armazenados em um arquivo Excel, conte
 ## Um pouco mais sobre a base
 
 [Clique aqui](referenciais/dicionario_de_dados.md) para ver o dicionário de dados da base utilizada.
+
+## Resumo dos princiapis resultados
+
