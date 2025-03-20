@@ -94,6 +94,7 @@ Os dados foram obtidos no Kaggle e estão armazenados em um arquivo Excel, conte
 
 ## Conclusão
 A análise revelou **mudanças estratégicas na operação da Adidas**, incluindo:
+
 ✅ **Expansão geográfica** e maior diversificação de vendas.  
 ✅ **Crescimento do e-commerce**, alterando o comportamento dos consumidores.  
 ✅ **Mudança no perfil dos produtos vendidos**, indicando novas tendências de consumo.  
