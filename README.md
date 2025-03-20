@@ -83,8 +83,8 @@ Os dados foram obtidos no Kaggle e estão armazenados em um arquivo Excel, conte
 - A média de preços caiu em 2021, indicando possíveis ajustes estratégicos para impulsionar as vendas.
 
 ### 5️⃣ Correlação Entre Variáveis
-- Há uma **forte correlação positiva** entre **unidades vendidas, vendas totais e lucro operacional**, confirmando que o aumento do volume de vendas impacta diretamente o faturamento e o lucro.
-- A **margem operacional** apresenta uma **correlação negativa** com as unidades vendidas (-0.31), sugerindo que o aumento do volume pode reduzir a rentabilidade percentual.
+- **O preço unitário** apresenta uma **correlação positiva** com o total de vendas (0.39), sugerindo que o aumento das vendas pode aumentar o valor médio do preço unitário de cada produto.
+- A **margem operacional** apresenta uma **correlação negativa** com as unidades vendidas (-0.34), sugerindo que o aumento do volume pode reduzir a rentabilidade percentual.
 
 ### 6️⃣ Testes Estatísticos
 - Os testes de **Qui-Quadrado** indicam que **há associação significativa** entre método de venda e varejistas, confirmando que diferentes varejistas utilizam estratégias distintas.
